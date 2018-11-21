@@ -1,0 +1,57 @@
+{
+  "name": "quasar-couchapp-starter-kit",
+  "version": "1.0.0",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Michael J Feher <github@phearzero.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "build:push": "yarn build && yarn dist:copy && yarn couchapp:push",
+    "dist:copy": "shx cp -r dist/spa-mat/* src-couchdb/_attachments/",
+    "couchapp:push": "couchapp push src-couchdb quasar",
+    "start:db": "pouchdb-server -p 5984 --in-memory",
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "docuri": "^4.2.2",
+    "pouchdb": "^7.0.0",
+    "pouchdb-collate": "^7.0.0",
+    "pouchdb-find": "^7.0.0",
+    "relational-pouch": "^3.1.0",
+    "vue-i18n": "^7.3.3",
+    "vuejs-pouchdb": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "couchdb-bootstrap": "^14.2.0",
+    "couchdb-push": "^2.5.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "pouchdb-server": "^4.1.0",
+    "quasar-cli": "^0.17.0",
+    "shx": "^0.3.2",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
