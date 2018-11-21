@@ -23,4 +23,5 @@ yarn start:db
 yarn build:push
 ```
 
-Navigate to [http://127.0.0.1:5984/quasar/_design/app/index.html]()
+Navigate to [http://127.0.0.1:5984/quasar/_design/app/index.html](http://127.0.0.1:5984/quasar/_design/app/index.html)
+And see the database GUI [http://127.0.0.1:5984/_utils](http://127.0.0.1:5984/_utils)
