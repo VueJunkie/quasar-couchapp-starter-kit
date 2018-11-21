@@ -16,11 +16,13 @@ interface. A `Couchdb View` is a `Index of a Index`
 // Install
 yarn
 
-// Run server in a second terminal
-yarn start:db
+// Run server in a second terminal 
+// remove --in-memory for persistence
+yarn start:db --in-memory -n
 
-// Build Quasar and Push to Local running Database
-yarn build:push
+// Build Quasar and Push to Local running Database 
+// change quasar to http://someremote/database for pushing to remote
+yarn build:push quasar
 ```
 
 Navigate to [http://127.0.0.1:5984/quasar/_design/app/index.html](http://127.0.0.1:5984/quasar/_design/app/index.html)
