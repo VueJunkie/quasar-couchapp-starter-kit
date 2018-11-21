@@ -11,7 +11,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build",
     "build:push": "yarn build && yarn dist:copy && yarn couchapp:push",
-    "dist:copy": "shx cp -r dist/spa-mat/* src-couchdb/_attachments/",
+    "dist:copy": "shx mkdir -p src-couchdb/_attachments && shx cp -r dist/spa-mat/* src-couchdb/_attachments/",
     "couchapp:push": "couchapp push src-couchdb quasar",
     "start:db": "pouchdb-server -p 5984 --in-memory"
   },
