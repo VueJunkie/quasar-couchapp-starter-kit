@@ -13,7 +13,7 @@
     "build:push": "yarn build && yarn dist:copy && yarn couchapp:push",
     "dist:copy": "shx cp -r dist/spa-mat/* src-couchdb/_attachments/",
     "couchapp:push": "couchapp push src-couchdb quasar",
-    "start:db": "pouchdb-server -p 5984 --in-memory",
+    "start:db": "pouchdb-server -p 5984 --in-memory"
   },
   "dependencies": {
     "axios": "^0.18.0",
