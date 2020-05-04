@@ -18,9 +18,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "docuri": "^4.2.2",
-    "pouchdb": "^7.0.0",
-    "pouchdb-collate": "^7.0.0",
-    "pouchdb-find": "^7.0.0",
+    "pouchdb": "^7.2.1",
+    "pouchdb-collate": "^7.2.1",
+    "pouchdb-find": "^7.2.1",
     "relational-pouch": "^3.1.0",
     "vue-i18n": "^7.3.3",
     "vuejs-pouchdb": "^1.0.1"
