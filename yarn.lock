@@ -6576,7 +6576,7 @@ lie@3.1.1:
   dependencies:
     immediate "~3.0.5"
 
-lie@^3.1.1:
+lie@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/lie/-/lie-3.3.0.tgz#dcf82dee545f46074daf200c7c1c5a08e0f40f6a"
   integrity sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==
@@ -8776,7 +8776,7 @@ pouchdb-promise@5.4.3:
   dependencies:
     lie "3.0.4"
 
-pouchdb-promise@6.4.3, pouchdb-promise@^6.4.1, pouchdb-promise@^6.4.2:
+pouchdb-promise@6.4.3, pouchdb-promise@^6.4.1, pouchdb-promise@^6.4.3:
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/pouchdb-promise/-/pouchdb-promise-6.4.3.tgz#74516f4acf74957b54debd0fb2c0e5b5a68ca7b3"
   integrity sha512-ruJaSFXwzsxRHQfwNHjQfsj58LBOY1RzGzde4PM5CWINZwFjCQAhZwfMrch2o/0oZT6d+Xtt0HTWhq35p3b0qw==
@@ -9664,17 +9664,17 @@ relateurl@0.2.x:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
-relational-pouch@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/relational-pouch/-/relational-pouch-3.1.0.tgz#ea4c03bbcbb345bddc0d7d54a42ec56f7baaf51d"
-  integrity sha512-Y8OgX0whbS/F8I9OyAlUtw10DBpwNudpnR4FxgexIFSbnghNdflnP024VtsjuBbA4dkrUQ1AXreLgeeWoptWoA==
+relational-pouch@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/relational-pouch/-/relational-pouch-3.2.0.tgz#e677066c8348ff81ecfa3699c72bed21018b81ca"
+  integrity sha512-6562+2d7gRoSV3ymsttdM/7EdNvh3WI9AXB7QUhhRbg+qbPZt5ZQWprWwLmTbH0ODAgKm+esOARizRlQgn9VnQ==
   dependencies:
     argsarray "0.0.1"
     es3ify "^0.2.2"
     inherits "~2.0.3"
-    lie "^3.1.1"
+    lie "^3.3.0"
     pouchdb-extend "^0.1.2"
-    pouchdb-promise "^6.4.2"
+    pouchdb-promise "^6.4.3"
     uniq "^1.0.1"
 
 remove-trailing-separator@^1.0.1:
