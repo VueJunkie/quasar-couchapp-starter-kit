@@ -21,7 +21,7 @@
     "pouchdb": "^7.0.0",
     "pouchdb-collate": "^7.0.0",
     "pouchdb-find": "^7.0.0",
-    "relational-pouch": "^3.1.0",
+    "relational-pouch": "^3.2.0",
     "vue-i18n": "^7.3.3",
     "vuejs-pouchdb": "^1.0.1"
   },
