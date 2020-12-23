@@ -16,7 +16,7 @@
     "start:db": "pouchdb-server -d .couch -p 5984"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "docuri": "^4.2.2",
     "pouchdb": "^7.0.0",
     "pouchdb-collate": "^7.0.0",
